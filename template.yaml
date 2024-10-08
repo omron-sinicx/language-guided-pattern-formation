@@ -18,12 +18,12 @@ authors:
     affiliation: [1]
     url: null
     position: intern
-  - name: So Kuroki*
+  - name: So Kuroki
     affiliation: [2]
-    position: intern
+    position: Project Researcher
     url: null
   - name: Tadashi Kozuno
-    affiliation: [3]
+    affiliation: [2]
     position: Senior Researcher
     url: https://tadashik.github.io/
   - name: Wei-Fang Sun
@@ -37,7 +37,6 @@ authors:
 contact_ids: ['github', 'omron', 3] #=> github issues, contact@sinicx.com, 2nd author
 affiliations:
   - ELSA Lab, National Tsing Hua University
-  - The University of Tokyo
   - OMRON SINIC X
 meta:
   - '* work done as interns at OMRON SINIC X.'
