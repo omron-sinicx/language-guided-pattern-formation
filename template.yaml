@@ -39,7 +39,7 @@ affiliations:
   - ELSA Lab, National Tsing Hua University
   - OMRON SINIC X
 meta:
-  - '* work done as interns at OMRON SINIC X.'
+  - '* work done as an intern at OMRON SINIC X.'
 bibtex: >
   @inproceedings{liu2024language,
     title={Language-Guided Pattern Formation for Swarm Robotics with Multi-Agent Reinforcement Learning},
@@ -87,6 +87,18 @@ body:
       project page.
 
       <img src="assets/shape-chain.jpg" alt="" />
+  - title: Acknowledgement
+    text: |
+      The authors gratefully acknowledge the support from
+      the National Science and Technology Council (NSTC) in
+      Taiwan under grant numbers MOST 111-2223-E-002-011-MY3,
+      NSTC 113-2221-E-002-212-MY3, and NSTC 113-2640-E-002-003.
+      The authors would also like to express their appreciation
+      for the donation of the GPUs from NVIDIA Corporation and
+      NVIDIA AI Technology Center (NVAITC) used in this work.
+      Furthermore, the authors extend their gratitude to the
+      National Center for High-Performance Computing (NCHC) for
+      providing the necessary computational and storage resources.
   - title: OMRON SINIC X is Hiring!
     text: |
       OMRON SINIC X continuously hires internship students.
