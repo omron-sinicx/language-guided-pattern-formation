@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import Authors from '../components/authors.jsx';
-import CorporateLogo from '../components/logo.jsx';
+import {CorporateLogo, ELSALogo, WeblabLogo} from '../components/logo.jsx';
 import { FaGithub, FaYoutube, FaMedium } from 'react-icons/fa6';
 import { FaFilePdf } from 'react-icons/fa';
 import { SiArxiv } from 'react-icons/si';
@@ -122,7 +122,20 @@ export default class Header extends React.Component {
                 affiliations={this.props.affiliations}
                 meta={this.props.meta}
               />
-              <div className="uk-text-center uk-margin-top">
+              <div className="uk-text-center uk-margin-top uk-flex uk-flex-center">
+                <a href="https://elsalab.ai/" target="_blank">
+                  <ELSALogo
+                    size="lg"
+                    inverted={this.props.theme == 'dark' ? true : false}
+                  />
+                </a>
+                <a href="https://weblab.t.u-tokyo.ac.jp/en/" target="_blank">
+                  <WeblabLogo
+                    size="lg"
+                    inverted={this.props.theme == 'dark' ? true : false}
+                  />
+                </a>
+
                 <a href="https://www.omron.com/sinicx" target="_blank">
                   <CorporateLogo
                     size="lg"
