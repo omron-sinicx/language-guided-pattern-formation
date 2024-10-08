@@ -108,4 +108,4 @@ projects:
     img: 'https://github.com/omron-sinicx/mabr/raw/project-page/src/media/teaser.png'
     description: |
       The multi-agent coordination skill database allows multiple mobile robots to efficiently use past memories to adapt to new tasks.
-    url: https://github.com/omron-sinicx/mabr
+    url: https://omron-sinicx.github.io/mabr/
