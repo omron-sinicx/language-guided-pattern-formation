@@ -129,13 +129,6 @@ export default class Header extends React.Component {
                     inverted={this.props.theme == 'dark' ? true : false}
                   />
                 </a>
-                <a href="https://weblab.t.u-tokyo.ac.jp/en/" target="_blank">
-                  <WeblabLogo
-                    size="lg"
-                    inverted={this.props.theme == 'dark' ? true : false}
-                  />
-                </a>
-
                 <a href="https://www.omron.com/sinicx" target="_blank">
                   <CorporateLogo
                     size="lg"
